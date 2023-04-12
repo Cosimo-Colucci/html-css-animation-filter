@@ -67,6 +67,14 @@
     width: 700px;
     filter: grayscale(100%) ;
 }
+.ex-8-img:hover {
+    filter: blur(3px);
+    border-radius: 10px;
+}
+.ex-8-img:active{
+    filter: hue-rotate(90deg);
+    border-radius: 10px;
+}
 
 .ex-9-img {
     margin: 50px 100px;
