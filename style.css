@@ -89,7 +89,21 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: girin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
+@keyframes girin{
+    0%{
+        transform: rotate(0);
+    }
+
+    25%{
+        transform: rotate();
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
